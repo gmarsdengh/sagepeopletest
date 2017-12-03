@@ -48,16 +48,18 @@ namespace LoanAPound.BLL
             {
                 //Accept
                 loanToCheck.LoanStatus = 2;
-                loanToCheck.LoanInitialApprovalDate = DateTime.Now;
+                loanToCheck.LoanApprovedByEngine = true;
             }
             else
             {
                 //Reject
                 loanToCheck.LoanStatus = -1;
-                loanToCheck.LoanRejectedDate = DateTime.Now;
+                loanToCheck.LoanApprovedByEngine = false;
 
             }
-            //Need to score creditcheck
+            loanToCheck.LoanApprovedRejectedByEngineDate = DateTime.Now;
+            loanToCheck.CreditChecker = checker.CheckerID;
+            loanToCheck.CreditScore = creditScore;
             //Need to sendalert
             return true;
         }

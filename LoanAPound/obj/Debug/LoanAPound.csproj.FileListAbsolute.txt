@@ -4,4 +4,3 @@ C:\shared\2017\sagepeople\LoanAPound\LoanAPound\bin\Debug\LoanAPound.pdb
 C:\shared\2017\sagepeople\LoanAPound\LoanAPound\obj\Debug\LoanAPound.csproj.CoreCompileInputs.cache
 C:\shared\2017\sagepeople\LoanAPound\LoanAPound\obj\Debug\LoanAPound.exe
 C:\shared\2017\sagepeople\LoanAPound\LoanAPound\obj\Debug\LoanAPound.pdb
-C:\shared\2017\sagepeople\LoanAPound\LoanAPound\obj\Debug\LoanAPound.csprojResolveAssemblyReference.cache

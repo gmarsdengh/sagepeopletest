@@ -20,10 +20,13 @@ namespace LoanAPound.DAL
         public int LoanAmount { get; set; }
         public int LoanStatus { get; set; }
         public DateTime LoanRequestDate { get; set; }
-        public DateTime LoanInitialApprovalDate { get; set; }
-        public DateTime LoanUnderwriterApprovalDate { get; set; }
-        public DateTime LoanRejectedDate { get; set; }
-        public DateTime LoanUnderwriterRejectedDate { get; set; }
+        public DateTime LoanApprovedRejectedByEngineDate { get; set; }
+        public DateTime LoanApprovedRejectedByUnderwriterDate { get; set; }
+        public bool LoanApprovedByEngine { get; set; }
+        public DateTime LoanApprovedByUnderwriter { get; set; }
+        public int CreditChecker { get; set; }
+        public int CreditScore { get; set; }
+
 
     }
     public class LoanType
