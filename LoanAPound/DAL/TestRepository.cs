@@ -1,9 +1,6 @@
 ﻿using LoanAPound.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LoanAPound.DAL
 {
@@ -33,11 +30,6 @@ namespace LoanAPound.DAL
                 };
 
 
-        }
-
-        public void testmetohd()
-        {
-            throw new NotImplementedException();
         }
     }
    
